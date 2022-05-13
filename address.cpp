@@ -6,7 +6,19 @@
 // then formats it and displays it to the user.
 #include <iostream>
 
-def formatAddress()
+def formatAddress(std::string name, std::string question, std::string 
+                 numStreet, std::string nameStreet, std::string city, 
+                 std::string province, std::string postal,
+                 std::string aptNum == "") {
+    
+    std:: string formatAddress;
+    // returns full name
+    
+    
+
+
+
+
 
 int main() {
     // declare variables
@@ -29,7 +41,7 @@ int main() {
     std::cin << userNumStreet;
     std::cout << "Enter you street name AND "
                  "type (Main St., Flower Cres., etc): ";
-    std::cout <<"Enter your city: ";
+    std::cout << "Enter your city: ";
     std::cin >> userCity
     
     std::cout << "Enter your province (as an abbreviation, i.e ON, AB, etc): ";
