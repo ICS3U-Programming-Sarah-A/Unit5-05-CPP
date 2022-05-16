@@ -54,6 +54,7 @@ int main() {
         getline(std::cin, aptNumUser);
     }
 
+    // gets even more user input
     std::cout << "Enter your street number: ";
     getline(std::cin, userNumStreet);
 
